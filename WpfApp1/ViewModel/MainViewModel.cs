@@ -20,7 +20,7 @@ namespace WpfApp1.ViewModel
         {
             try
             {
-              Elements = new ObservableCollection<Element>(DataBase.GetElementsByOrderFromFile(DataBase.GetSortingElementsFromFile()));            
+              Elements = new ObservableCollection<Element>(InputClass.GetElementsByOrderFromFile(InputClass.GetSortingElementsFromFile()));            
             }
             catch(Exception e)
             {

@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace WpfApp1.Model
 {
-    class DataBase
+    class InputClass
     {
 
         public static List<Element> GetSortingElementsFromFile()

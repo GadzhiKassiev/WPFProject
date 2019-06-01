@@ -73,7 +73,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\Algorithms.cs" />
-    <Compile Include="Model\DataBase.cs" />
+    <Compile Include="Model\InputClass.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
